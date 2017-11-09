@@ -1,0 +1,38 @@
+{
+  "apis": [
+    {
+      "id": "test",
+      "name": "test",
+      "desc": "This is a sample test.",
+      "auth": "key-auth",
+      "tags": [
+        "Sample"
+      ],
+      "plans": [
+        "basic",
+        "unlimited"
+      ]
+    },
+    {
+      "id": "dkan-dataset-api",
+      "name": "dkan-dataset-api",
+      "desc": "This is a sample DKAN API.",
+      "auth": "key-auth",
+      "tags": [
+        "Sample"
+      ],
+      "plans": [
+        "basic",
+        "unlimited"
+      ]
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "/apis"
+    },
+    "plans": {
+      "href": "/plans"
+    }
+  }
+}

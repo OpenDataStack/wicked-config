@@ -1,0 +1,10 @@
+{
+    "api": {
+        "upstream_url": "http://localhost:89/api/dataset/node",
+        "request_path": "/api/dataset/node",
+        "preserve_host": false,
+        "strip_request_path": true,
+        "name": "dkan-dataset-api"
+    },
+    "plugins": []
+}
