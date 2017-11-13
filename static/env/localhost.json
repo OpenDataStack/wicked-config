@@ -1,4 +1,10 @@
 {
+  "PORTAL_HOST": {
+    "value": "${LOCAL_IP}:3001"
+  },
+  "PORTAL_API_HOST": {
+    "value": "${LOCAL_IP}:3001"
+  },
   "PORTAL_API_URL": {
     "value": "http://${LOCAL_IP}:3001"
   },
