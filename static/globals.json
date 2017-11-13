@@ -7,8 +7,6 @@
   },
   "network": {
     "schema": "http",
-    "portalHost": "portal.local",
-    "apiHost": "api.portal.local",
     "apiUrl": "$PORTAL_API_URL",
     "portalUrl": "$PORTAL_PORTAL_URL",
     "kongAdapterUrl": "$PORTAL_KONG_ADAPTER_URL",
