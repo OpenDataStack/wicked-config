@@ -8,8 +8,7 @@
         "plugins": [
           {
             "config": {
-              "hour": 100,
-              "async": true
+              "hour": 100
             },
             "name": "rate-limiting"
           }

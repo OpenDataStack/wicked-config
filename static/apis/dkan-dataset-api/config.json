@@ -1,10 +1,13 @@
 {
-    "api": {
-        "upstream_url": "http://localhost:89/api/dataset/node",
-        "request_path": "/api/dataset/node",
-        "preserve_host": false,
-        "strip_request_path": true,
-        "name": "dkan-dataset-api"
-    },
-    "plugins": []
+  "api": {
+    "upstream_url": "http://medata.medellin.gov.co/api/dataset/node",
+    "preserve_host": false,
+    "name": "dkan-dataset-api",
+    "uris": [
+      "/api/dataset/node"
+    ],
+    "strip_uri": true,
+    "http_if_terminated": true
+  },
+  "plugins": []
 }

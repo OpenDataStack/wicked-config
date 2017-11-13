@@ -13,7 +13,8 @@
   "templates": 0,
   "design": 2,
   "envs": [
-    "default"
+    "default",
+    "localhost"
   ],
-  "env": 2
+  "env": 3
 }

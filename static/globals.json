@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 6,
   "title": "wicked.haufe.io API Portal",
   "footer": "&copy; 2016 Your Company Ltd.",
   "api": {
@@ -14,7 +14,8 @@
     "kongAdapterUrl": "$PORTAL_KONG_ADAPTER_URL",
     "kongAdminUrl": "$PORTAL_KONG_ADMIN_URL",
     "mailerUrl": "$PORTAL_MAILER_URL",
-    "chatbotUrl": "$PORTAL_CHATBOT_URL"
+    "chatbotUrl": "$PORTAL_CHATBOT_URL",
+    "forceRedirectToHttps": false
   },
   "db": {
     "staticConfig": "$PORTAL_API_STATIC_CONFIG",
@@ -95,5 +96,50 @@
     }
   },
   "company": "wicked.haufe.io API Portal",
-  "validatedUserGroup": "dev"
+  "validatedUserGroup": "dev",
+  "configKeyCheck": "dd9fb56c5d47a0871f95899e94efa05e9905a4a29a9e43360e889ee2f68035d245e4d17a471d223a2fabfdbbbcd99e37b7193ed7a2790555db21082b9c5dd01f5b240e4da4d3b3bb896135a98328b5c70d01a94ea744",
+  "layouts": {
+    "defautRootUrl": "http://wicked.haufe.io",
+    "defautRootUrlTarget": "_blank",
+    "defautRootUrlText": null,
+    "menu": {
+      "homeLinkText": "Home",
+      "apisLinkVisibleToGuest": true,
+      "applicationsLinkVisibleToGuest": true,
+      "contactLinkVisibleToGuest": true,
+      "contentLinkVisibleToGuest": true,
+      "classForLoginSignupPosition": "left",
+      "showSignupLink": true,
+      "loginLinkText": "Log in"
+    },
+    "footer": {
+      "showBuiltBy": true,
+      "showBuilds": true
+    },
+    "swaggerUi": {
+      "menu": {
+        "homeLinkText": "Home",
+        "showContactLink": true,
+        "showContentLink": false
+      }
+    }
+  },
+  "views": {
+    "apis": {
+      "showApiIcon": true,
+      "titleTagline": "This is the index of APIs which are available for this API Portal."
+    },
+    "applications": {
+      "titleTagline": "This page displays all your registered applications. It also allows you to register a new application."
+    },
+    "application": {
+      "titleTagline": "This page lets you administer the owners of this application. You can add and remove co-owners of the application. New co-owners must be already be registered in the portal in order to make them co-owners of the application."
+    }
+  },
+  "sessionStore": {
+    "type": "file",
+    "host": "portal-redis",
+    "port": 6379,
+    "password": ""
+  }
 }

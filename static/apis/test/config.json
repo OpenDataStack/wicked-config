@@ -1,10 +1,13 @@
 {
-    "api": {
-        "upstream_url": "https://api.github.com/users/angrycactus",
-        "request_path": "/test",
-        "preserve_host": false,
-        "strip_request_path": true,
-        "name": "test"
-    },
-    "plugins": []
+  "api": {
+    "upstream_url": "https://api.github.com/users/angrycactus",
+    "preserve_host": false,
+    "name": "test",
+    "uris": [
+      "/test"
+    ],
+    "strip_uri": true,
+    "http_if_terminated": true
+  },
+  "plugins": []
 }
