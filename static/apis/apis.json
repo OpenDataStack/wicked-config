@@ -14,9 +14,9 @@
       ]
     },
     {
-      "id": "dkan-dataset-api",
-      "name": "dkan-dataset-api",
-      "desc": "This is a sample DKAN API.",
+      "id": "dkan_dataset_api",
+      "name": "DKAN Dataset REST API",
+      "desc": "Gateway for DKAN Dataset REST API.",
       "auth": "key-auth",
       "tags": [
         "Sample"
