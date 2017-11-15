@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "title": "wicked.haufe.io API Portal",
-  "footer": "&copy; 2016 Your Company Ltd.",
+  "title": "MEData API Portal",
+  "footer": "Copyright © Medata 2017 ®. All rights reserved",
   "api": {
     "headerName": "X-ApiKey"
   },
@@ -25,8 +25,8 @@
       "id": "1",
       "firstName": "Admin",
       "lastName": "User",
-      "email": "admin@foo.com",
-      "password": "wicked",
+      "email": "devops@angrycactus.io",
+      "password": "$USER_ADMIN_PASSWORD",
       "groups": [
         "admin"
       ]
@@ -45,24 +45,6 @@
     "password": "smtppassword",
     "adminEmail": "adminemail@yourcompany.com",
     "adminName": "Admin Name"
-  },
-  "chatbot": {
-    "username": "wicked.haufe.io",
-    "icon_url": "https://raw.githubusercontent.com/Haufe-Lexware/wicked.haufe.io/master/public/wicked-40.png",
-    "hookUrls": [
-      "https://yourinstance.slack.com/thisisahookurlyouneedtogetfromyourslackadmin"
-    ],
-    "events": {
-      "userSignedUp": true,
-      "userValidatedEmail": true,
-      "applicationAdded": true,
-      "applicationDeleted": true,
-      "subscriptionAdded": true,
-      "subscriptionDeleted": true,
-      "approvalRequired": true,
-      "lostPasswordRequest": true,
-      "verifyEmailRequest": true
-    }
   },
   "auth": {
     "local": {
@@ -94,6 +76,6 @@
       "callbackURL": "https://portal.yourcompany.com/callback/google"
     }
   },
-  "company": "wicked.haufe.io API Portal",
+  "company": "MEData",
   "validatedUserGroup": "dev"
 }
