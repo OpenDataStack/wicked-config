@@ -7,8 +7,8 @@
   },
   "network": {
     "schema": "http",
-    "portalHost": "portal.local",
-    "apiHost": "api.portal.local",
+    "portalHost": "$NETWORK_PORTAL_HOST",
+    "apiHost": "$NETWORK_API_HOST",
     "apiUrl": "$PORTAL_API_URL",
     "portalUrl": "$PORTAL_PORTAL_URL",
     "kongAdapterUrl": "$PORTAL_KONG_ADAPTER_URL",
@@ -26,7 +26,7 @@
       "firstName": "Admin",
       "lastName": "User",
       "email": "devops@angrycactus.io",
-      "password": "$USER_ADMIN_PASSWORD",
+      "password": "$INITIALUSERS_ADMIN_PASSWORD",
       "groups": [
         "admin"
       ]
