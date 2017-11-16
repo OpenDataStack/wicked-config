@@ -25,6 +25,34 @@
         "basic",
         "unlimited"
       ]
+    },
+    {
+      "id": "dkan_datastore_api",
+      "name": "DKAN Datastore REST API",
+      "desc": "Gateway for DKAN Datastore API.",
+      "auth": "key-auth",
+      "tags": [
+        "Sample",
+        "DKAN"
+      ],
+      "plans": [
+        "basic",
+        "unlimited"
+      ]
+    },
+    {
+      "id": "dkan_ckan_api",
+      "name": "DKAN CKAN REST API",
+      "desc": "Gateway for DKAN CKAN API.",
+      "auth": "key-auth",
+      "tags": [
+        "Sample",
+        "DKAN"
+      ],
+      "plans": [
+        "basic",
+        "unlimited"
+      ]
     }
   ],
   "_links": {
