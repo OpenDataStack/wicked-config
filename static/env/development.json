@@ -3,6 +3,12 @@
     "encrypted": true,
     "value": "8cc9b63c5c1cf2d44ac585cf90e7f10ccd51f5f5929e436b038795e1a488668f16e4867d4349276e7eaaacbfe08ace3ab01a6a83f72f06508b740f24c00b834f5d730f42a083baeed86231a2d22fba93"
   },
+  "NETWORK_PORTAL_HOST": {
+    "value": "developers.medata.medellin.gov.co"
+  },
+  "NETWORK_API_HOST": {
+    "value": "api.medata.medellin.gov.co"
+  },
   "API_DKAN_DATASET_API_UPSTREAM_URL": {
     "value": "http://dkan-medellin-dev.ci.angrycactus.io/api/dataset/node"
   },
