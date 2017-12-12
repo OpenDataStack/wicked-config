@@ -1,11 +1,9 @@
 ### Contact Information
 
-Your Company Ltd.<br/>
-Some Super Street 10a<br/>
-12345 Somewhere
-
-Telefon: +49-123-456789-0<br/>
-E-Mail: info[at]your-company.com
+MEData Open Data.<br/>
+Calle 44 N 52 165 Centro Administrativo Municipa La Alpujarra - Medellin<br/>
+Phone: (575) 548 44 15<br/>
+E-Mail: lorem.ipsum@example.com<br/>
 
 ## Disclaimer - rechtliche Hinweise
   

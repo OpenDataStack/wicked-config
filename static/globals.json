@@ -1,21 +1,20 @@
 {
-  "version": 6,
-  "title": "wicked.haufe.io API Portal",
-  "footer": "&copy; 2016 Your Company Ltd.",
+  "version": 2,
+  "title": "MEData API Portal",
+  "footer": "Copyright © Medata 2017 ®. All rights reserved",
   "api": {
     "headerName": "X-ApiKey"
   },
   "network": {
     "schema": "http",
-    "portalHost": "$PORTAL_HOST",
-    "apiHost": "$PORTAL_API_HOST",
+    "portalHost": "$NETWORK_PORTAL_HOST",
+    "apiHost": "$NETWORK_API_HOST",
     "apiUrl": "$PORTAL_API_URL",
     "portalUrl": "$PORTAL_PORTAL_URL",
     "kongAdapterUrl": "$PORTAL_KONG_ADAPTER_URL",
     "kongAdminUrl": "$PORTAL_KONG_ADMIN_URL",
     "mailerUrl": "$PORTAL_MAILER_URL",
-    "chatbotUrl": "$PORTAL_CHATBOT_URL",
-    "forceRedirectToHttps": false
+    "chatbotUrl": "$PORTAL_CHATBOT_URL"
   },
   "db": {
     "staticConfig": "$PORTAL_API_STATIC_CONFIG",
@@ -26,8 +25,8 @@
       "id": "1",
       "firstName": "Admin",
       "lastName": "User",
-      "email": "admin@foo.com",
-      "password": "wicked",
+      "email": "devops@angrycactus.io",
+      "password": "$INITIALUSERS_ADMIN_PASSWORD",
       "groups": [
         "admin"
       ]
@@ -46,24 +45,6 @@
     "password": "smtppassword",
     "adminEmail": "adminemail@yourcompany.com",
     "adminName": "Admin Name"
-  },
-  "chatbot": {
-    "username": "wicked.haufe.io",
-    "icon_url": "https://raw.githubusercontent.com/Haufe-Lexware/wicked.haufe.io/master/public/wicked-40.png",
-    "hookUrls": [
-      "https://yourinstance.slack.com/thisisahookurlyouneedtogetfromyourslackadmin"
-    ],
-    "events": {
-      "userSignedUp": true,
-      "userValidatedEmail": true,
-      "applicationAdded": true,
-      "applicationDeleted": true,
-      "subscriptionAdded": true,
-      "subscriptionDeleted": true,
-      "approvalRequired": true,
-      "lostPasswordRequest": true,
-      "verifyEmailRequest": true
-    }
   },
   "auth": {
     "local": {
@@ -95,51 +76,6 @@
       "callbackURL": "https://portal.yourcompany.com/callback/google"
     }
   },
-  "company": "wicked.haufe.io API Portal",
-  "validatedUserGroup": "dev",
-  "configKeyCheck": "dd9fb56c5d47a0871f95899e94efa05e9905a4a29a9e43360e889ee2f68035d245e4d17a471d223a2fabfdbbbcd99e37b7193ed7a2790555db21082b9c5dd01f5b240e4da4d3b3bb896135a98328b5c70d01a94ea744",
-  "layouts": {
-    "defautRootUrl": "http://wicked.haufe.io",
-    "defautRootUrlTarget": "_blank",
-    "defautRootUrlText": null,
-    "menu": {
-      "homeLinkText": "Home",
-      "apisLinkVisibleToGuest": true,
-      "applicationsLinkVisibleToGuest": true,
-      "contactLinkVisibleToGuest": true,
-      "contentLinkVisibleToGuest": true,
-      "classForLoginSignupPosition": "left",
-      "showSignupLink": true,
-      "loginLinkText": "Log in"
-    },
-    "footer": {
-      "showBuiltBy": true,
-      "showBuilds": true
-    },
-    "swaggerUi": {
-      "menu": {
-        "homeLinkText": "Home",
-        "showContactLink": true,
-        "showContentLink": false
-      }
-    }
-  },
-  "views": {
-    "apis": {
-      "showApiIcon": true,
-      "titleTagline": "This is the index of APIs which are available for this API Portal."
-    },
-    "applications": {
-      "titleTagline": "This page displays all your registered applications. It also allows you to register a new application."
-    },
-    "application": {
-      "titleTagline": "This page lets you administer the owners of this application. You can add and remove co-owners of the application. New co-owners must be already be registered in the portal in order to make them co-owners of the application."
-    }
-  },
-  "sessionStore": {
-    "type": "file",
-    "host": "portal-redis",
-    "port": 6379,
-    "password": ""
-  }
+  "company": "MEData",
+  "validatedUserGroup": "dev"
 }

@@ -14,12 +14,40 @@
       ]
     },
     {
-      "id": "dkan-dataset-api",
-      "name": "dkan-dataset-api",
-      "desc": "This is a sample DKAN API.",
+      "id": "dkan_dataset_api",
+      "name": "DKAN Dataset REST API",
+      "desc": "Gateway for DKAN Dataset REST API.",
       "auth": "key-auth",
       "tags": [
         "Sample"
+      ],
+      "plans": [
+        "basic",
+        "unlimited"
+      ]
+    },
+    {
+      "id": "dkan_datastore_api",
+      "name": "DKAN Datastore REST API",
+      "desc": "Gateway for DKAN Datastore API.",
+      "auth": "key-auth",
+      "tags": [
+        "Sample",
+        "DKAN"
+      ],
+      "plans": [
+        "basic",
+        "unlimited"
+      ]
+    },
+    {
+      "id": "dkan_ckan_api",
+      "name": "DKAN CKAN REST API",
+      "desc": "Gateway for DKAN CKAN API.",
+      "auth": "key-auth",
+      "tags": [
+        "Sample",
+        "DKAN"
       ],
       "plans": [
         "basic",

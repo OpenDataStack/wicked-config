@@ -1,0 +1,10 @@
+{
+    "api": {
+        "upstream_url": "$API_DKAN_DATASET_API_UPSTREAM_URL",
+        "request_path": "/api/action/datastore",
+        "preserve_host": false,
+        "strip_request_path": true,
+        "name": "dkan_datastore_api"
+    },
+    "plugins": []
+}
